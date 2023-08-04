@@ -2,5 +2,3 @@
     "mongoURI": "mongodb://localhost:27017/mydatabase",
     "jwtSecret": "mySecretKey12345"
 }
-
-  
