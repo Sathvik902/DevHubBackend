@@ -4,11 +4,8 @@
   "description": "Social Media for Developers",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "build": "npm i",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev":"nodemon server.js",
+    "build":"npm i"
   },
   "author": "Mugilan E.S.",
   "license": "MIT",
